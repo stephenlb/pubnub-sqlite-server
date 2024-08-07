@@ -47,11 +47,7 @@ The Node.js server will start and listen for SQL queries on the `query` channel.
 
 ## Web Interface
 
-### 1. Open `index.html`
-
-Navigate to the `client` directory and open the `index.html` file in your web browser. You can use this simple interface to send SQL queries to the server.
-
-### 2. Configure PubNub Keys
+### 1. Configure PubNub Keys
 
 In the `index.html` file, replace the placeholders with your actual PubNub keys:
 
@@ -61,6 +57,11 @@ const pubnub = new PubNub({
     subscribeKey: 'your-subscribe-key'  // Replace with your actual PubNub subscribe key
 });
 ```
+
+### 2. Open `index.html`
+
+Navigate to the `client` directory and open the `index.html` file in your web browser. You can use this simple interface to send SQL queries to the server.
+
 
 ### 3. Use the Interface
 
