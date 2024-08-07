@@ -1,0 +1,16 @@
+{
+  "name": "pubnub-sqlite-server",
+  "version": "1.0.0",
+  "description": "Node.js server with PubNub and SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.0.11",
+    "pubnub": "^4.34.2",
+    "dotenv": "^16.0.3"
+  }
+}
