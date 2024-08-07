@@ -32,6 +32,8 @@ npm install
 
 Create a `.env` file at the root of the project and add your PubNub keys:
 
+> [Get API Keys](https://admin.pubnub.com/)
+
 ```plaintext
 PUBNUB_PUBLISH_KEY=your-publish-key
 PUBNUB_SUBSCRIBE_KEY=your-subscribe-key
@@ -50,6 +52,8 @@ The Node.js server will start and listen for SQL queries on the `query` channel.
 ### 1. Configure PubNub Keys
 
 In the `index.html` file, replace the placeholders with your actual PubNub keys:
+
+> [Get API Keys](https://admin.pubnub.com/)
 
 ```javascript
 const pubnub = new PubNub({
