@@ -82,8 +82,7 @@ This will return all rows from the `test` table that has been pre-populated with
 
 ```plaintext
 .
-├── client
-│   └── index.html        # Web interface for interacting with the server
+├── index.html            # Web interface for interacting with the server
 ├── .env                  # Environment variables for PubNub keys (not included in the repo)
 ├── package.json          # Project metadata and dependencies
 ├── server.js             # Main server code for handling PubNub messages and SQLite queries
