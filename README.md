@@ -1,4 +1,4 @@
-# PubNub SQLite Query Server
+# How to Use localhost as Web Database Server
 
 This repository contains a Node.js server application that uses PubNub to listen for SQL queries on a specified channel and executes them on an in-memory SQLite database. The results are then sent back to a designated response channel.
 
